@@ -598,7 +598,7 @@ body{
 .content-about i{
     font-size: 20px;
 }
-.icon-twitter:hover{
+.icon-twitter:hover i {
     color: #1DA1F2;
     transition: 0.3s;
 }
@@ -648,15 +648,15 @@ body{
     color: #833AB4;
     transition: 0.3s;
 }
-.icon-facebook:hover{
+.icon-facebook:hover i {
     color: #4267B2;
     transition: 0.3s;
 }
-.icon-telegram:hover{
+.icon-telegram:hover i {
     color: #0088cc;
     transition: 0.3s;
 }
-.icon-youtube:hover{
+.icon-youtube:hover i {
     color: #FF0000;
     transition: 0.3s;
 }
