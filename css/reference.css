@@ -1,0 +1,526 @@
+/*Основні*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    user-select: none;
+}
+*{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 auto;
+    color: #000;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #d2d2d2;
+}
+::-webkit-scrollbar-track{
+    background-color: #f9f9f9;
+}
+/*Основні*/ 
+
+/*Верхній стовпець зі списком меню*/
+.transformation{
+    padding-bottom: 28px;
+    border-bottom: 1px solid #f9f9f9;
+}
+.topnav .icon{
+    display: none;
+    cursor: pointer;
+}
+@media screen and (max-width:708px) {
+    .topnav :not(:first-child) {display: none;}
+    .topnav a.icon{
+        display: block;
+    }
+}
+.logotype{
+    font-size: 20px;
+    margin: 30px 0px 0px 30px;
+    display: inline-block;
+}
+.icon_logo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 10px;
+}
+.autorisation{
+    float: right;
+    margin: 20px 30px 0px 0px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 10px 16px 10px 16px;
+    letter-spacing: 1.5px;
+}
+.autorisation:hover{
+    border: 1px solid #000;
+    transition: 0.3s;
+    background-color: #000;
+    color: #fff;
+}
+.choose{
+    float: right;
+    margin: 20px 30px 0px 0px;
+    border: 1px solid #00000000;
+    border-radius: 30px;
+    padding: 10px 16px 10px 16px;
+    letter-spacing: 1.5px;
+}
+.choose:hover{
+    border: 1px solid #000;
+    transition: 0.3s;
+    background-color: #000;
+    color: #fff;
+}
+.icon{
+    float: right;
+    margin: 16px 16px 0px 0px;
+    font-size: 32px;
+}
+/*Верхній стовпець зі списком меню*/
+
+/*Невелике меню*/
+@media screen and (max-width: 708px) {
+    .list-none{
+      display: none;
+    }
+  }
+  #list{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fafafa;
+    font-size: 18px;
+    text-align: center;
+}
+#list li{
+    margin: 0px 4px 0px 4px;
+    display: inline-block;
+    font-size: 18px;
+}
+.dropbtn {
+    font-size: 18px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 a;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    z-index: 999;
+    box-shadow: 0px 6px 12px 0px #000000b0;
+}
+.dropdown-content a {
+    text-align: left;
+    padding: 12px 16px;
+    display: block;
+    background-color: #f9f9f9;
+}
+.dropbtn {
+    font-size: 18px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 12px 0px 0px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    z-index: 999;
+    box-shadow: 0px 6px 12px 0px #000000b0;
+}
+.dropdown-content a {
+    text-align: left;
+    padding: 12px 16px;
+    display: block;
+    background-color: #f9f9f9;
+}
+.decor{
+    height: 2px;
+    background-color: #fff;
+}
+.dropdown-content a:hover {
+    background-color: #000;
+     color: #fff;
+    }
+.dropdown:hover 
+.dropdown-content {
+    display: block;
+}
+.icon-caret-down{
+    padding: 4px 0px 0px 6px;
+    position: absolute;
+    font-size: 14px;
+}
+/*Невелике меню*/
+
+/*1*/
+.down_content_a{
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: azure;
+    background-image: url(../image/20250501_062126.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part_down_a{
+    text-align: center;
+    padding-top: 114px;
+    max-width: 665px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.down-text_a {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: 1.5px;
+}
+.down-text_b {
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+/*1*/
+
+/*2*/
+.down_content_b{
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: azure;
+    background-image: url(../image/20250501_062144.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part_down_b{
+    text-align: center;
+    padding-top: 114px;
+    max-width: 665px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.down-text_c {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: 1.5px;
+}
+.down-text_d {
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+/*2*/
+
+/*3*/
+.down_content_c{
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: azure;
+    background-image: url(../image/20250501_062138.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part_down_c{
+    text-align: center;
+    padding-top: 114px;
+    max-width: 665px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.down-text_f {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: 1.5px;
+}
+.down-text_h {
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+/*3*/
+
+/*4*/
+.down_content_d{
+    margin: 0 auto;
+    max-width: 100%;
+    min-height: 500px;
+    background-color: azure;
+    background-image: url(../image/20250501_062118.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.part_down_d{
+    text-align: center;
+    padding-top: 114px;
+    max-width: 665px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.down-text_f {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+    letter-spacing: 1.5px;
+}
+.down-text_h {
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px;
+}
+/*4*/
+.lg{
+    color: #505050;
+}
+.gm{
+    color: #505050;
+    cursor: alias;
+}
+.slick {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding-top: 76px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+.text-slick {
+    text-align: center;
+    padding-top: 34px;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+.slick2 {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    padding-top: 144px;
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+
+/*Внутрішня інформація*/
+#checkinfo{
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    margin-left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+}
+#checkinfo.show{
+    visibility: visible;
+    -webkit-animation: fadein 5.5s, fadeout 5.5s 5.5s;
+    animation: fadein 0.5s, fadeout 5.5s 5.5s;
+}
+#snackbar {
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    margin-left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+}
+#snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#ahshop{
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    margin-left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+}
+#ahshop.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#snackhub {
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    margin-left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+}
+#snackhub.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+#hubshop{
+    visibility: hidden;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 16px 16px 16px;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    margin-left: 16px;
+    bottom: 16px;
+    font-size: 20px;
+}
+#hubshop.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 16px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 16px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 16px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 16px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+/*Внутрішня інформація*/
+
+/*Внутрішня частина меню*/
+.sidenav {
+    display: none;
+    height: 100%;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+}
+.sidenav p {
+    padding: 8px 20px 8px 20px;
+    color: #000;
+    display: block;
+}
+.sidenav a {
+    padding: 8px 20px 8px 20px;
+    color: #000;
+    display: block;
+    cursor: pointer;
+}
+.sidenav a:hover {
+    background-color: #000;
+    color: #f9f9f9;
+}
+.icon-clos{
+    display: block;
+    padding-top: 2px;
+    padding-bottom: 12px;
+    margin-left: 180px;
+}
+.icon-google-close{
+    font-size: 52px;
+    cursor: pointer;
+ }
+/*Внутрішня частина меню*/
+
+/*Нижнє меню*/
+.footer{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #f9f9f9;
+}
+.footer p{
+    color: #000;
+}
+.footer a{
+    cursor: pointer;
+}
+.teg1{
+    display: inline-block;
+    font-size: 16px;
+    width: 300px;
+    text-align: initial;
+    padding-top: 48px;
+    padding-bottom: 52px;
+}
+.teg1 a{
+    color: #000;
+}
+.teg1 a:hover{
+    transition: 0.3s;
+    border-bottom: 1px solid #000;
+}
+.a1{
+    font-size: 18px;
+    color: #000;
+}
+.bd{
+    width: 0px;
+    height: 16px;
+}
+.bb{
+    width: 0px;
+    height: 4px;
+}
+/*Нижнє меню*/
+
+/*Авторське право*/
+.confidentiality-footer{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.confidentiality-footer a{
+    padding-left: 30px;
+    color: #000;
+    cursor: pointer;
+}
+/*Авторське право*/

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>P E T E I C H U K</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="IcoMoon/Font/demo-files/demo.css">
+    <link rel="icon" href="icon/logopeteichuk.png">
+</head>
+<body>
+     <!--Верхній стовпець зі списком меню-->
+     <div class="transformation">
+        <div class="topnav">
+            <div class="logotype"><a href="index.html">P E T E I C H U K <img src="icon/logopeteichuk.png" class="icon_logo"></a></div>
+            <a class="autorisation" href="autorisation.html">Авторізація</a>
+            <a class="choose" href="login.html">Вибрати</a>
+            <a onclick="openNav()" class="icon">☰</a>
+        </div>
+    </div>
+     <!--Верхній стовпець зі списком меню-->
+
+     <!--Невелике меню-->
+     <div class="list-none" id="list">
+        <ul>
+          <li><a href="index.html#news-proect">Новини</a></li>
+          <div class="dropdown">
+            <a class="dropbtn">Послуги</a>
+            <div class="dropdown-content">
+              <a href="#" onclick="ahFunction()">Замовлення</a>
+              <div class="decor"></div>
+              <a href="#" onclick="checkAnimshop()">Виконані замовлення</a>
+              <div class="decor"></div>
+              <a href="#" onclick="myFunction()">Вставити рекламу</a>
+              <div class="decor"></div>
+              <a href="#" onclick="myFunction()">Продовжити період</a>
+              <div class="decor"></div>
+              <a href="#" onclick="myFunction()">Прибрати рекламу</a>
+            </div>
+          </div>
+          <li><a href="#" onclick="myFunction()">Підтримка</a></li>
+          <div class="dropdown">
+            <a class="dropbtn">Контакти</a>
+            <div class="dropdown-content">
+              <a href="https://viber.click/4915151550566">Viber</a>
+              <div class="decor"></div>
+              <a href="https://t.me/Peteychuk_Vasyl">Telegram</a>
+              <div class="decor"></div>
+              <a href="https://www.instagram.com/peteichukvasyl/">Instagram</a>
+            </div>
+          </div>
+          <li><a href="aboutcompany.html">Про компанію</a></li>
+        </ul>
+      </div>
+  
+      <!--Невелике меню-->
+
+    <!--Внутрішня частина меню-->
+
+    <div id="mySidenav" class="sidenav">
+        <div class="icon-clos">
+          <i class="icon-google-close" onclick="closeNav()">&#215;</i>
+        </div>
+        <div class="decor"></div>
+        <a href="index.html#news-proect">Новини</a>
+        <div class="decor"></div>
+        <p><b>Послуги</b></p>
+        <div class="decor"></div>
+        <a onclick="hubAnimshop ()">Замовлення</a>
+        <div class="decor"></div>
+        <a onclick="checkAnimshop()">Виконані замовлення</a>
+        <div class="decor"></div>
+        <a onclick="myFunction()">Вставити рекламу</a>
+        <div class="decor"></div>
+        <a onclick="myFunction()">Продовжити період</a>
+        <div class="decor"></div>
+        <a onclick="myFunction()">Прибрати рекламу</a>
+        <div class="decor"></div>
+        <p><b>Контакти</b></p>
+        <div class="decor"></div>
+        <a
+          href="https://viber.click/4915151550566"
+          >Viber</a
+        >
+        <div class="decor"></div>
+        <a href="https://t.me/Peteychuk_Vasyl">Telegram</a>
+        <div class="decor"></div>
+        <a href="https://www.instagram.com/peteichukvasyl/">Instagram</a>
+        <div class="decor"></div>
+        <a href="aboutcompany.html">Про компанію</a>
+        <div class="decor"></div>
+        <a href="#login.html">Вибрати</a>
+        <div class="decor"></div>
+        <a href="autorisation.html">Авторізація</a>
+      </div>
+  
+      <!--Внутрішня частина меню-->
+      
+    <!--Іформація-->
+    <div class="top_content">
+    <div class="part_top">
+        <p class="top-text">Ласкаво просимо на сайт.</p>
+        <p class="top-text2">
+            Сайт створений виключно в творчих цілях, 
+            авторські права належать мені, 
+            вам потрібно лише описати цей сайт і щось додати для його покращення, 
+            дякую за активність.
+          </p>
+          <a class="befehl" onclick="ahFunction()">Замовлення</a>
+    </div>
+</div>
+<!--Іформація-->
+
+<!--Внутрішня інформація-->
+<div id="checkinfo">
+    На жаль, чекові угоди ще не доступні найближчим часом.
+  </div>
+  <div id="snackbar">Все ще не працює :(</div>
+  <div id="ahshop">Замовлення наразі неможливі.</div>
+  <div id="snackhub">Все ще не працює :(</div>
+  <div id="hubshop">Замовлення наразі неможливі.</div>
+  <!--Внутрішня інформація-->
+
+    <div class="container">
+        <div class="text-container">
+            Те, що було сфотографовано цього року
+          </div>
+          <div class="item1"><img src="image/20250501_062118.jpg"></div>
+          <div class="item1"><img src="image/20250501_062138.jpg"></div>
+          <div class="item1"><img src="image/20250501_062126.jpg"></div>
+          <div class="item1"><img src="image/20250430_175934.jpg"></div>
+          <div class="item1"><img src="image/20250501_062144.jpg"></div>
+          <div class="item1"><img src="image/20250430_175129.jpg"></div>
+    </div>
+    <div class="container-info">
+        <div class="info">Проекти за 2025 рік</div>
+        <div class="text">Були створені 02.05.2025</div>
+      </div>
+      
+      <div id="link-select" class="link-select">
+        <div class="text-link"><b>Зв'язатися з нами можна через</b></div>
+        <div class="content-about">
+          <a href="#"  onclick="myFunction()"><i class="icon-twitter"></i></a>
+          <div class="decor-left"></div>
+          <a href="https://www.instagram.com/peteichukvasyl/"><i class="icon-instagram"></i></a>
+          <div class="decor-left"></div>
+          <a href="https://viber.click/4915151550566"><i class="icon-facebook"></i></a>
+          <div class="decor-left"></div>
+          <a href="https://t.me/Peteychuk_Vasyl"><i class="icon-telegram"></i></a>
+          <div class="decor-left"></div>
+          <a href="https://www.youtube.com/@VasylVasilyovych"><i class="icon-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="container1">
+        <div id="news-proect" class="text-container1">
+            Нові проекти
+          </div>
+          <div class="item2"><img src="image/500-Error-Log-File.png"></div>
+          <div class="item2"><img src="image/aajEyb-1280.jpg"></div>
+          <div class="item2"><img src="image/500-Error-Log-File.png"></div>
+          <div class="item2"><img src="image/aajEyb-1280.jpg"></div>
+          <div class="item2"><img src="image/500-Error-Log-File.png"></div>
+          <div class="item2"><img src="image/aajEyb-1280.jpg"></div>
+    </div>
+    <div class="container-info1">
+        <div class="galery">Відкрити галерею?</div>
+        <div class="click"><a href="gallery .html">Клацніть</a></div>
+      </div>
+      <div class="slick">
+        <div class="text-slick"></div>
+      </div>
+
+      <!--Розташування-->
+      <div class="content-karte">
+        <div class="name-carte">Розташування</div>
+        <div class="id-karte">
+          Minden 32425
+        </div>
+        <iframe class="karte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78065.50677547022!2d8.812768300681995!3d52.30607449660257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba7404fae075b3%3A0xd0f08c41845c0955!2sMinden!5e0!3m2!1sde!2sde!4v1746746874534!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <!--Розташування-->
+
+      <footer class="footer">
+        <div class="teg1">
+          <b><p class="a1">Допомога</p></b><table>
+            
+          </table>
+          <div class="bd"></div>
+          <a onclick="myFunction()">По коду</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">По рекламі</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">За замовленням</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">Не надійшло замовлення?</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">По встановленню плагінів</a><table>
+            
+          </table>
+        </div>
+        <div class="teg1">
+          <b><p class="a1">Довідник</p></b><table>
+            
+          </table>
+          <div class="bd"></div>
+          <a onclick="myFunction()">Документи</a><table>
+            
+          </table>
+          <div class="bb"></div>
+           <a onclick="myFunction()">Проекти</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">Історія платежів</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">Реферати учасників</a><table>
+            
+          </table>
+        </div>
+        <div class="teg1">
+          <b><p class="a1">Спільнота</p></b><table>
+            
+          </table>
+          <div class="bd"></div>
+          <a href="https://viber.click/4915151550566">Viber</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a href="https://t.me/Peteychuk_Vasyl">Telegram</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a href="https://www.instagram.com/peteichukvasyl/">Instagram</a><table>
+            
+          </table>
+        </div>
+        <div class="teg1">
+          <b><p class="a1">Більше</p></b><table>
+            
+          </table>
+          <div class="bd"></div>
+          <a onclick="myFunction()">Печиво</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">Термінал</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a href="aboutcompany.html">Про компанію</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a href="reference.html#reference">Умови використання</a><table>
+            
+          </table>
+          <div class="bb"></div>
+          <a onclick="myFunction()">Політика конфіндентальності</a><table>
+            
+          </table>
+        </div>
+      </footer>
+
+
+      <div class="confidentiality-footer">
+        <a href="reference.html">© 2023 Всі права захищені</a>
+      </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
