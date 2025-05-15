@@ -522,19 +522,19 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
     display: inline-block;
     margin: 0px 20px 0px 20px;
 }
-.icon-google:hover{
+.icon-google:hover i {
     color: #4285F4;
     transition: 0.3s;
 }
-.icon-appleinc:hover{
+.icon-appleinc:hover i {
     color: #555555;
     transition: 0.3s;
 }
-.icon-facebook:hover{
+.icon-facebook:hover i { 
     color:  #3b5998 ;
     transition: 0.3s;
 }
-.icon-twitter:hover{
+.icon-twitter:hover i {
     color:   #1DA1F2;
     transition: 0.3s;
 }
