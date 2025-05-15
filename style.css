@@ -517,7 +517,7 @@ body{
     speak: none;
     font-style: normal;
 }
-.icon-instagram:hover{
+.icon-instagram:hover i {
     color: #833AB4;
     transition: 0.3s;
 }
